@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap</title>
+</head>
+<link href="/style/login.css" rel="stylesheet">
+<body>
+    <nav>
+        <a href="#">
+            <img src="img/sparta.png" alt="Antique Shop Logo" class="logo"  onclick="window.location.href='/index.html'">
+        </a>
+        <a class="an" href="#">Heroes Soul</a>
+        <div class="buttons">
+            <button type="button" class="">Hakkımızda</button>
+            <button type="button" class="b"  onclick="window.location.href='/login.html'">Kayıt Ol/Giriş Yap</button>
+        </div>
+    </nav>
+    <div class="form-container">
+        <form class="login-form">
+            <h2>Giriş Yap</h2>
+            <div class="input-group">
+                <label for="username">Kullanıcı Adı</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Mail</label>
+                <input type="mail" id="mail" name="mail" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Şifre</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Giriş Yap</button>
+            <a href="register.html" class="register">Kayıt Ol</a>
+            
+        </form>
+    </div>
+</body>
+</html>
