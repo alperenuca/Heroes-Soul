@@ -1,2 +1,2 @@
 # Heroes Soul
- A blog website where the biographies and exploits of hero game characters are shared.
+ A game-blog website where the biographies and exploits of hero game characters are shared.
